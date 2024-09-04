@@ -14,25 +14,25 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="form-action" method="GET">
-                     <div class="row">
+                <form action="./welcome.php" method="GET">
+                    <div class="row">
                         <div class="col-6">
-                            <div class="form-group">
-                                <div class="control-label">parola</div>
+                            <div class="form-group mt-5">
+                                <div class="control-laber">parola</div>
                                 <input type="text" class="form-control" name="parola" placeholder="inserisci parola">
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="form-group">
-                                <div class="control-label">paragrafo</div>
-                                <input type="text" class="form-control" name="paragrafo" placeholder="inserisci paragrafo">
+                            <div class="form-group mt-5">
+                                <div class="control-laber">paragrafo</div>
+                                <textarea type="text" class="form-control" name="paragrafo" placeholder="inserisci paragrafo"></textarea>
                             </div>
                         </div>
                         <div class="col-12">
-                            <button type="submit" class="btn btn-primary">invia</button>
+                            <button type="submit" class="btn btn-primary mt-5">invia</button>
                         </div>
-                     </div>
-                </div>
+                    </div>
+               </form>
             </div>
         </div>
     </div>
