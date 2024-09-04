@@ -1,9 +1,7 @@
 <?php
  $parola = $_GET["parola"];
  $paragrafo = $_GET["paragrafo"];
-
- $Newparola = str_replace("parola", "***", $parola = $_GET );
- echo "nuova parola: " .$Newparola;
+ $new_paragrafo = str_replace($parola, "***", $paragrafo );
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +12,8 @@
     <title>welcome</title>
 </head>
 <body>
-    <div> <?php echo ($parola)." ". ($paragrafo);?></div>
-    <div> <?php echo ($parola)." ". ($paragrafo);?></div>
+    <div> <?php echo strlen($paragrafo)." ". ($paragrafo);?></div>
+    <div> <?php echo strlen($new_paragrafo)." ". ($new_paragrafo);?></div>
+
 </body>
 </html>
